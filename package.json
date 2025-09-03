@@ -1,0 +1,17 @@
+{
+  "name": "vocacao-play",
+  "version": "1.0.0",
+  "description": "Plataforma de teste vocacional gamificado",
+  "main": "server.js",
+  "scripts": {
+  "start": "node server/server.js"
+},
+  "keywords": ["vocacional", "express", "sqlite3", "fullstack"],
+  "author": "Arthur",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}

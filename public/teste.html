@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>VocaçãoPlay — Teste</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="./style.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="container header-row">
+    <h1>VocaçãoPlay</h1>
+    <div id="progress" class="progress">Pergunta 1 de 40</div>
+  </header>
+
+  <main class="container card">
+    <h2 id="question">Carregando pergunta...</h2>
+    <div id="options" class="options"></div>
+
+    <div class="actions">
+      <button id="prevBtn" class="btn btn-secondary" disabled>Voltar</button>
+      <button id="nextBtn" class="btn">Próxima</button>
+    </div>
+  </main>
+
+  <footer class="container footer">
+    <small>Dica: escolha a alternativa que mais combina com você.</small>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

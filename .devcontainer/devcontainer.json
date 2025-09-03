@@ -1,0 +1,14 @@
+{
+  "name": "Vocacao TCC",
+  "runArgs": ["--init"],
+  "postCreateCommand": "npm install",
+  "postStartCommand": "npm start",
+  "forwardPorts": [3000],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    }
+  }
+}
